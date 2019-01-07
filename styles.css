@@ -1,32 +1,42 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  height: 0px;
-}
-
-h1 {font-family: fantasy;
+/*this allows you to select the class .blue_background and search inside that class for .secondary-heading*/
+.blue_background {
+  font-family: 'ZCOOL XiaoWei', serif;
   font-size: 48px;
-  color: green;
-  letter-spacing: 2px;
+  color: #3498db;
+  letter-spacing: 1px;
   text-align: center;
 }
 
+img {
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  display: inline-block;
+}
+
+footer {
+  border-top: 2px solid #3498db;
+  text-align: right;
+
+}
+
+p {
+  font-family: "Bookman Old Style";
+  text-align: justify;
+}
+
 h2 {
-  font-family: monospace;
-  color: white;
-  border: solid 2px green;
+  color: #3498db;
 }
 
-.blue_background {
-  background: blue;
+li {
+  display: inline;
+  font-size: 18px;
+  color: dimgray;
+  padding: 8.5%;
+  text-decoration: underline;
 }
 
-.green_background {
-  background: green;
-}
-
-/*this allows you to select the class .blue_background and search inside that class for .secondary-heading*/
-.blue_background .secondary-heading {
-  line-height: 25px;
-  padding: 18px;
+body {
+  border: 10px solid dimgray;
 }
